@@ -21,12 +21,12 @@
       "Explosion Velocity" : 150,
       "Explosion Radius" : 20
     },
-    "Warp Scramble" : {
+    "Warp Scrambler" : {
       "Range" : 16000,
       "Strength" : 2,
       "Duration" : 10
     },
-    "Stasis Webifying" : {
+    "Stasis Webifier" : {
       "Range" : 18000,
       "SpeedReduction" : -60,
       "Duration" : 20
@@ -35,21 +35,21 @@
   "Defenses" : {
     "Shield" : {
       "Hitpoints" : 2300,
-      "Resistancies" : [35.1, 67.6, 61.1, 48.1],
+      "Resistances": [35.1, 67.6, 61.1, 48.1],
       "Recharge" : 8.83,
       "Boost" : 175,
       "Interval" : 2.5
     },
     "Armor" : {
       "Hitpoints" : 1400,
-      "Resistancies" : [66.0, 23.5, 36.2, 44.8],
-      "Repair" : 0.0,
+      "Resistances": [66.0, 23.5, 36.2, 44.8],
+      "Repair" : 0,
       "Interval" : 1.0
     },
     "Structure" : {
       "Hitpoints" : 1000,
-      "Resistancies" : [60.0, 60.0, 60.0, 60.0],
-      "Repair" : 0.0,
+      "Resistances": [60.0, 60.0, 60.0, 60.0],
+      "Repair" : 0,
       "Interval" : 1.0
     }
   },

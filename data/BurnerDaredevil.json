@@ -14,12 +14,12 @@
       "Tracking" : 1.5,
       "OptimalSignature" : 40
     },
-    "Warp Scramble" : {
+    "Warp Scrambler" : {
       "Range" : 16000,
       "Strength" : 2,
       "Duration" : 10
     },
-    "Stasis Webifying" : {
+    "Stasis Webifier" : {
       "Range" : 18000,
       "SpeedReduction" : -90,
       "Duration" : 20
@@ -28,21 +28,21 @@
   "Defenses" : {
     "Shield" : {
       "Hitpoints" : 1000,
-      "Resistancies" : [12.5, 56.3, 47.5, 30],
+      "Resistances": [12.5, 56.3, 47.5, 30],
       "Recharge" : 3.84,
       "Boost" : 0,
       "Interval" : 1.0
     },
     "Armor" : {
       "Hitpoints" : 2500,
-      "Resistancies" : [68.5, 43.3, 59.0, 59.0],
-      "Repair" : 195.0,
+      "Resistances": [68.5, 43.3, 59.0, 59.0],
+      "Repair" : 195,
       "Interval" : 3.0
     },
     "Structure" : {
       "Hitpoints" : 2000,
-      "Resistancies" : [60.0, 60.0, 60.0, 60.0],
-      "Repair" : 0.0,
+      "Resistances": [60.0, 60.0, 60.0, 60.0],
+      "Repair" : 0,
       "Interval" : 1.0
     }
   },
@@ -50,7 +50,7 @@
     "Orbit Range" : 11000,
     "Orbit Speed" : 1200,
     "Chase Speed" : 2600,
-    "Angular Velocity" : 0,10909091
+    "Angular Velocity" : 0.10909091
   },
   "Targeting" : {
     "Attack Range" : 50000,
