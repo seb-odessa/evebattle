@@ -1,0 +1,73 @@
+{
+  "Name" : "Burner Dramiel",
+  "Description": [
+    "This individual is a rogue element of the Angel Cartel and should be considered highly dangerous."
+    "The motivation for their activities are unknown - it could be to test-run experimental technology, to try secret new battle tactics on the local colonists, or just to splinter off their faction in time-honored fashion."
+  ],
+  "Data Source" : ["http://games.chruker.dk/eve_online/item.php?type_id=34141"],
+  "Offenses" : {
+    "Turrets" : {
+      "Damage" : [0, 192, 38, 330],
+      "Interval" : 2.0,
+      "Range" : 500,
+      "Falloff" : 10000,
+      "Tracking" : 1.5,
+      "OptimalSignature" : 40
+    },
+    "Missiles" : {
+      "Damage" : [165, 0, 0, 0],
+      "Interval" : 3.0,
+      "Range" : 10125,
+      "Explosion Velocity" : 150,
+      "Explosion Radius" : 20
+    },
+    "Warp Scramble" : {
+      "Range" : 16000,
+      "Strength" : 2,
+      "Duration" : 10
+    },
+    "Stasis Webifying" : {
+      "Range" : 18000,
+      "SpeedReduction" : -60,
+      "Duration" : 20
+    }
+  },
+  "Defenses" : {
+    "Shield" : {
+      "Hitpoints" : 2300,
+      "Resistancies" : [35.1, 67.6, 61.1, 48.1],
+      "Recharge" : 8.83,
+      "Boost" : 175,
+      "Interval" : 2.5
+    },
+    "Armor" : {
+      "Hitpoints" : 1400,
+      "Resistancies" : [66.0, 23.5, 36.2, 44.8],
+      "Repair" : 0.0,
+      "Interval" : 1.0
+    },
+    "Structure" : {
+      "Hitpoints" : 1000,
+      "Resistancies" : [60.0, 60.0, 60.0, 60.0],
+      "Repair" : 0.0,
+      "Interval" : 1.0
+    }
+  },
+  "Movement" : {
+    "Orbit Range" : 500,
+    "Orbit Speed" : 2100,
+    "Chase Speed" : 2900,
+    "Angular Velocity" : 4.20000000
+  },
+  "Targeting" : {
+    "Attack Range" : 50000,
+    "Signature Radius" : 18.0,
+    "Scan Resolution" : 2000.0,
+    "Attack Targets" : 6,
+    "Locked Targets" : 6,
+    "Targeting Speed" : 3.0,
+    "Sensor Type" : "Magnetometric",
+    "Sensor Strength" : 30,
+  },
+  "Capacitor Capacity" : 1250,
+}

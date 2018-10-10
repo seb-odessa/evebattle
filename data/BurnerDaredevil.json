@@ -1,0 +1,67 @@
+{
+  "Name" : "Burner Daredevil",
+  "Description": [
+    "This individual is a rogue element of the Serpentis Corporation and should be considered highly dangerous."
+    "The motivation for their activities are unknown - it could be to test-run experimental technology, to try secret new battle tactics on the local colonists, or just to splinter off their faction in time-honored fashion."
+  ],
+  "Data Source" : ["http://games.chruker.dk/eve_online/item.php?type_id=34143"],
+  "Offenses" : {
+    "Turrets" : {
+      "Damage" : [0, 0, 462, 330],
+      "Interval" : 3.0,
+      "Range" : 12000,
+      "Falloff" : 15000,
+      "Tracking" : 1.5,
+      "OptimalSignature" : 40
+    },
+    "Warp Scramble" : {
+      "Range" : 16000,
+      "Strength" : 2,
+      "Duration" : 10
+    },
+    "Stasis Webifying" : {
+      "Range" : 18000,
+      "SpeedReduction" : -90,
+      "Duration" : 20
+    }
+  },
+  "Defenses" : {
+    "Shield" : {
+      "Hitpoints" : 1000,
+      "Resistancies" : [12.5, 56.3, 47.5, 30],
+      "Recharge" : 3.84,
+      "Boost" : 0,
+      "Interval" : 1.0
+    },
+    "Armor" : {
+      "Hitpoints" : 2500,
+      "Resistancies" : [68.5, 43.3, 59.0, 59.0],
+      "Repair" : 195.0,
+      "Interval" : 3.0
+    },
+    "Structure" : {
+      "Hitpoints" : 2000,
+      "Resistancies" : [60.0, 60.0, 60.0, 60.0],
+      "Repair" : 0.0,
+      "Interval" : 1.0
+    }
+  },
+  "Movement" : {
+    "Orbit Range" : 11000,
+    "Orbit Speed" : 1200,
+    "Chase Speed" : 2600,
+    "Angular Velocity" : 0,10909091
+  },
+  "Targeting" : {
+    "Attack Range" : 50000,
+    "Signature Radius" : 11.0,
+    "Scan Resolution" : 2000.0,
+    "Attack Targets" : 6,
+    "Locked Targets" : 6,
+    "Targeting Speed" : 3.0,
+    "Sensor Type" : "Ladar",
+    "Sensor Strength" : 30,
+  },
+  "Capacitor Capacity" : 1250,
+  "Capacitor Recharge Time" : 500
+}
