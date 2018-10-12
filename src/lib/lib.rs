@@ -12,3 +12,5 @@ pub mod armor;
 pub mod structure;
 pub mod movement;
 pub mod targeting;
+pub mod offenses;
+pub mod defenses;
